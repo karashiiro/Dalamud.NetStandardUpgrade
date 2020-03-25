@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Game\ClientState\Actors\Types\PlayerCharacter.cs~RF58ec96.TMP" />
+    <None Remove="Game\Internal\Network\GameNetwork.cs~RF7f8514.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lumina" Version="1.1.1" />
+    <PackageReference Include="SharedMemory" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
