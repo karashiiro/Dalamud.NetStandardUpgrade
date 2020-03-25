@@ -72,7 +72,7 @@ namespace Dalamud.NetStandardUpgradePlugin
 
                 byte[] interopResponse;
                 var returnType = requestedMethod.ReturnType;
-                if (!returnType.IsValueType || returnType.IsEnum)
+                if (!returnType.IsValueType)
                 {
                     // Reference types crash, I guess
                     continue;
